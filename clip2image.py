@@ -35,6 +35,14 @@ def convert(DIR_FIG='../figure'):
     return None
 
 if __name__ == "__main__":
-    this_str = convert()
+    import sys
+    this_str = convert(sys.argv[1])
     if this_str:
+
+        # below works for pygtk > 2.2
+        # gtk.Clipboard.set_text(this_str)
+
+        with open('/tmp/clip2image.temp','w') as f:
+            f.write(this_str)
+
         print(this_str)
