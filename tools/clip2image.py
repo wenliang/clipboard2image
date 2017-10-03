@@ -42,7 +42,7 @@ if __name__ == "__main__":
         # below works for pygtk > 2.2
         # gtk.Clipboard.set_text(this_str)
 
-        with open('/tmp/clip2image.temp','w') as f:
-            f.write(this_str)
+        # with open('/tmp/clip2image.temp','w') as f:
+        #    f.write(this_str)
 
         print(this_str)
