@@ -1,7 +1,7 @@
 # clipboard2image
 
 ## Inspiration
-Inspired by the [markclip](https://atom.io/packages/markclip) plug for [atom](https://atom.io/) editor. Just copy and paste, saving images got so easy.
+Inspired by the [markclip](https://atom.io/packages/markclip) plugin for [atom](https://atom.io/) editor. Just copy and paste, saving images got so easy.
 
 ## aim
 
@@ -16,7 +16,7 @@ Inspired by the [markclip](https://atom.io/packages/markclip) plug for [atom](ht
 
 Require `pygtk > 2.0`.
 
-The `tools/clip2image.py` is writen in python, but called via bash. Vim do NOT need to compiled with `+python`.
+The `tools/clip2image.py` is writen in python, but called via bash. Vim does NOT need to compiled with `+python`.
 
 The `tolls/clip2image.py` can be used independantly. :wink:
 
@@ -26,4 +26,5 @@ Plugin 'wenliang/clipboard2image'
 ```
 
 ## TODO
-  * format URL to markdown format
+ * [] format URL to markdown format
+ * [] make the figure directory configurable.
