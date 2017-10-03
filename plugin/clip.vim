@@ -1,5 +1,5 @@
 function! Clip2Image()
-	silent execute "! python /home/lwl/project/clipboard2image/clip2image.py ../figure"
+	silent execute "! python ${HOME}/.vim/bundle/clipboard2image/tools/clip2image.py ../figure"
     read /tmp/clip2image.temp
 endfunc
 command! Clip call Clip2Image()
