@@ -26,5 +26,5 @@ Plugin 'wenliang/clipboard2image'
 ```
 
 ## TODO
- * [] format URL to markdown format
- * [] make the figure directory configurable.
+ * [ ] format URL to markdown format
+ * [ ] make the figure directory configurable.
