@@ -4,5 +4,5 @@ function! Clip2Image()
 endfunc
 command! Clip call Clip2Image()
 
-map <c-v> :call Clip2Image()<CR><c-l>
-imap <c-v> <ESC>:call Clip2Image()<CR><c-l>
+map <c-s-i> :call Clip2Image()<CR><c-l>
+imap <c-s-i> <ESC>:call Clip2Image()<CR><c-l>
