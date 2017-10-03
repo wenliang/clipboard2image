@@ -3,5 +3,7 @@ function! Clip2Image()
 endfunc
 command! Clip call Clip2Image()
 
-map <c-s-i> :call Clip2Image()<CR><c-l>
-imap <c-s-i> <ESC>:call Clip2Image()<CR><c-l>
+" not working: c-s-i, conflict with neocomplete
+" not working: c-v, conflict with column edit mode
+map <c-s-r> :call Clip2Image()<CR><c-l>
+imap <c-s-r> <ESC>:call Clip2Image()<CR><c-l>
