@@ -1,5 +1,5 @@
 function! Clip2Image()
-    read ! python ${HOME}/.vim/bundle/clipboard2image/tools/clip2image.py ../figures 2> /dev/null
+    read ! python ${HOME}/.vim/plugged/clipboard2image/tools/clip2image.py ../figures 2> /dev/null
 endfunc
 command! Clip call Clip2Image()
 
